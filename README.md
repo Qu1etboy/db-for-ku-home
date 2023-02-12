@@ -50,7 +50,7 @@ git push origin main
 - กําหนด remote repository ชื่อ upstream
 
 ```bash
-git remote add upstream <url>
+git remote add upstream https://github.com/Qu1etboy/db-for-ku-home.git
 ```
 
 - ดึงโค้ดจาก original remote repository ลงมายัง local repository โดยใช้คําสั่ง
