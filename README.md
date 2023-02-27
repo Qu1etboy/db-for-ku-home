@@ -8,7 +8,7 @@
 - สร้างตารางความสัมพันธ์
   - [ ] user
   - [ ] employee
-  - [ ] role
+  - [x] role
   - [ ] room
   - [ ] room type
   - [ ] booking
