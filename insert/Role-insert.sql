@@ -1,10 +1,13 @@
-INSERT INTO Role (role_title) VALUES ('Admin');
-INSERT INTO Role (role_title) VALUES ('Concierge');
-INSERT INTO Role (role_title) VALUES ('Reservations agent');
-INSERT INTO Role (role_title) VALUES ('Front desk agent');
-INSERT INTO Role (role_title) VALUES ('Housekeeping');
-INSERT INTO Role (role_title) VALUES ('Maintenance');
-INSERT INTO Role (role_title) VALUES ('Manager');
-INSERT INTO Role (role_title) VALUES ('Vendor');
-INSERT INTO Role (role_title) VALUES ('Contractor');
-INSERT INTO Role (role_title) VALUES ('Accountant');
+INSERT INTO Role(role_title)
+VALUES
+    ('Admin'),
+    ('Conciege'),
+    ('Reservations agent'),
+    ('Front desk agent'),
+    ('Housekeeping'),
+    ('Maintenance'),
+    ('Manager'),
+    ('Vendor'),
+    ('Contractor'),
+    ('Accountant')
+;
