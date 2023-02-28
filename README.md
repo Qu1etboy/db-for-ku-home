@@ -17,7 +17,7 @@
 - insert ข้อมูลตัวอย่าง
   - [ ] user
   - [ ] employee
-  - [ ] role
+  - [x] role
   - [ ] room
   - [ ] room type
   - [ ] booking
