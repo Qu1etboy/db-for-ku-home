@@ -1,0 +1,100 @@
+INSERT INTO Employee(
+    role_id,
+    phone_number,
+    first_name,
+    last_name,
+    email,
+    `password`,
+    income
+)
+VALUES (
+    1,
+    '1234567890',
+    'John',
+    'Doe',
+    'john@gmail.com',
+    '123456',
+    10000
+),
+(
+    2,
+    '2345678901',
+    'Alice',
+    'Zhang',
+    'alice@gmail.com',
+    '123456',
+    9000
+), 
+(
+    3,
+    '3456789012',
+    'Bob',
+    'Smith',
+    'bob@gmail.com',
+    '123456',
+    15000
+),
+(   
+    4,
+    '4567890123',
+    'Ong',
+    'Sittipong',
+    'ong22280@gmail.com',
+    '123456',
+    23500
+),
+(
+    5,
+    '5678901234',
+    'Kittipong',
+    'Sittipong',
+    'kit@gmail.com'
+    '123456',
+    62300
+),
+(
+    6,
+    '6789012345',
+    'James',
+    'Cameron',
+    'jame@gmail.com'
+    '123456',
+    65300
+),
+(
+    7,
+    '7890123456',
+    'Art',
+    'anon',
+    'art@gmail.com'
+    '123456',
+    70800
+),
+(
+    8,
+    '8901234567',
+    'Vee',
+    'Huang',
+    'vee@gmail.com',
+    '123456',
+    50999
+),
+(
+    9,
+    '9012345678',
+    'ton',
+    'anon',
+    'ton@gmail.com',
+    '123456',
+    30000
+),
+(
+    10,
+    '0123456789',
+    'Pong',
+    'Rattanaporn',
+    'pong@gmail.com',
+    '123456',
+    45000
+)
+;
