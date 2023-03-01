@@ -1,4 +1,5 @@
 INSERT INTO Employee(
+    role_id,
     phone_number,
     first_name,
     last_name,
@@ -7,6 +8,7 @@ INSERT INTO Employee(
     income
 )
 VALUES (
+    1,
     '1234567890',
     'John',
     'Doe',
@@ -15,6 +17,7 @@ VALUES (
     10000
 ),
 (
+    2,
     '2345678901',
     'Alice',
     'Zhang',
@@ -23,6 +26,7 @@ VALUES (
     9000
 ), 
 (
+    3,
     '3456789012',
     'Bob',
     'Smith',
@@ -30,7 +34,8 @@ VALUES (
     '123456',
     15000
 ),
-(
+(   
+    4,
     '4567890123',
     'Ong',
     'Sittipong',
@@ -39,6 +44,7 @@ VALUES (
     23500
 ),
 (
+    5,
     '5678901234',
     'Kittipong',
     'Sittipong',
@@ -47,6 +53,7 @@ VALUES (
     62300
 ),
 (
+    6,
     '6789012345',
     'James',
     'Cameron',
@@ -55,6 +62,7 @@ VALUES (
     65300
 ),
 (
+    7,
     '7890123456',
     'Art',
     'anon',
@@ -63,6 +71,7 @@ VALUES (
     70800
 ),
 (
+    8,
     '8901234567',
     'Vee',
     'Huang',
@@ -71,6 +80,7 @@ VALUES (
     50999
 ),
 (
+    9,
     '9012345678',
     'ton',
     'anon',
@@ -79,6 +89,7 @@ VALUES (
     30000
 ),
 (
+    10,
     '0123456789',
     'Pong',
     'Rattanaporn',
