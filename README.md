@@ -11,15 +11,15 @@
   - [x] role
   - [ ] room
   - [ ] room type
-  - [ ] booking
-  - [ ] bill
+  - [x] booking
+  - [x] bill
   - [ ] review
 - insert ข้อมูลตัวอย่าง
   - [ ] user
   - [ ] employee
-  - [ ] role
+  - [x] role
   - [ ] room
-  - [ ] room type
+  - [x] room type
   - [ ] booking
   - [ ] bill
   - [ ] review
