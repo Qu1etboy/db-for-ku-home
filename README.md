@@ -7,22 +7,22 @@
 
 - สร้างตารางความสัมพันธ์
   - [ ] user
-  - [ ] employee
+  - [x] employee
   - [x] role
-  - [ ] room
+  - [x] room
   - [x] room type
   - [x] booking
   - [x] bill
   - [ ] review
 - insert ข้อมูลตัวอย่าง
   - [ ] user
-  - [ ] employee
+  - [x] employee
   - [x] role
   - [x] room
   - [x] room type
   - [ ] booking
   - [ ] bill
-  - [ ] review
+  - [x] review
 - Select user interested queries
 
   - [ ] แสดงข้อมูลของรายได้ที่ได้ในเดือนๆ หนึ่งจากการรวมราคาห้องทั้งหมดจากการรวมตาราง bill, ตาราง booking และ ตาราง room เข้าด้วยกัน
@@ -33,7 +33,7 @@
   - [ ] แสดงชื่อ เบอร์โทร และอีเมลของตําแหน่งผู้บริหารทั้งหมดจากตาราง employee
   - [ ] แสดงข้อมูลการเข้าพักโรงแรมที่เข้าพักนานที่สุดจากตาราง booking
   - [ ] แสดงจํานวนพนักงานที่อยู๋ในตําแหน่งแม่บ้าน จากตาราง employee
-  - [ ] แสดงรีวิวที่ได้ rating 1 ดาว และ comment มาจากตาราง review
+  - [x] แสดงรีวิวที่ได้ rating 1 ดาว และ comment มาจากตาราง review
   - [ ] แสดงจํานวนห้องทั้งหมดจากตาราง room
 
   - [ ] แสดงจํานวนห้องที่ว่างทั้งหมด พร้อมราคามาจากตาราง room
