@@ -1,0 +1,56 @@
+INSERT INTO Room (
+    room_type_id,
+    room_number,
+    room_status
+)
+VALUES (
+    1,
+    001,
+    'Available'
+),
+(
+    2,
+    002,
+    'Unavailable'
+),
+(
+    3,
+    003,
+    'Available'
+),
+(
+    1,
+    004,
+    'Unavailable'
+),
+(
+    2,
+    005,
+    'Available'
+),
+(
+    3,
+    006,
+    'Unavailable'
+),
+(
+    1,
+    007,
+    'Available'
+),
+(
+    2,
+    008,
+    'Unavailable'
+),
+(
+    3,
+    009,
+    'Available'
+),
+(
+    1,
+    010,
+    'Unavailable'
+)
+;
