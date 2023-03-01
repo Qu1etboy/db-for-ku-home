@@ -11,18 +11,18 @@
   - [x] role
   - [ ] room
   - [ ] room type
-  - [ ] booking
-  - [ ] bill
+  - [x] booking
+  - [x] bill
   - [ ] review
 - insert ข้อมูลตัวอย่าง
   - [ ] user
   - [ ] employee
-  - [ ] role
+  - [x] role
   - [ ] room
-  - [ ] room type
+  - [x] room type
   - [ ] booking
   - [ ] bill
-  - [ ] review
+  - [x] review
 - Select user interested queries
 
   - [ ] แสดงข้อมูลของรายได้ที่ได้ในเดือนๆ หนึ่งจากการรวมราคาห้องทั้งหมดจากการรวมตาราง bill, ตาราง booking และ ตาราง room เข้าด้วยกัน
