@@ -10,7 +10,7 @@
   - [x] employee
   - [x] role
   - [x] room
-  - [ ] room type
+  - [x] room type
   - [x] booking
   - [x] bill
   - [ ] review
