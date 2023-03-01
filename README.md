@@ -7,16 +7,16 @@
 
 - สร้างตารางความสัมพันธ์
   - [ ] user
-  - [x] employee
+  - [ ] employee
   - [x] role
-  - [x] room
+  - [ ] room
   - [x] room type
   - [x] booking
   - [x] bill
   - [ ] review
 - insert ข้อมูลตัวอย่าง
   - [ ] user
-  - [x] employee
+  - [ ] employee
   - [x] role
   - [x] room
   - [x] room type
