@@ -5,52 +5,52 @@ INSERT INTO Room (
 )
 VALUES (
     1,
-    001,
+    101,
     'Available'
 ),
 (
     2,
-    002,
+    102,
     'Unavailable'
 ),
 (
     3,
-    003,
+    103,
     'Available'
 ),
 (
     1,
-    004,
+    201,
     'Unavailable'
 ),
 (
     2,
-    005,
+    202,
     'Available'
 ),
 (
     3,
-    006,
+    203,
     'Unavailable'
 ),
 (
     1,
-    007,
+    301,
     'Available'
 ),
 (
     2,
-    008,
+    302,
     'Unavailable'
 ),
 (
     3,
-    009,
+    303,
     'Available'
 ),
 (
     1,
-    010,
+    401,
     'Unavailable'
 )
 ;
