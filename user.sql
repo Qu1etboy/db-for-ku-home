@@ -1,5 +1,5 @@
 CREATE TABLE USER 
-(id_card VARCHAR (13),
+(id_card CHAR (13),
 phone_number CHAR (10)  NOT NULL,
 first_name VARCHAR (50)  NOT NULL,
 last_name VARCHAR (50) NOT NULL,
