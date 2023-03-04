@@ -1,4 +1,4 @@
--- #แสดงชื่อ เบอร์โทร และอีเมลของตําแหน่งผู้บริหารทั้งหมดจากตาราง employee
+-- #แสดงชื่อ เบอร์โทรและอีเมลของตําแหน่งผู้บริหารทั้งหมดจากตาราง employee
 SELECT first_name,last_name,phone_number,email
 FROM Employee JOIN Role ON Employee.role_id = Role.role_id
 WHERE Role.role_title = "Admin";
