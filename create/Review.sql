@@ -1,6 +1,6 @@
 CREATE TABLE Review (
-  id_card CHAR(13) NOT NULL,
-  room_id INT(4) NOT NULL,
+  id_card CHAR(13),
+  room_id INT(4),
   rating FLOAT NOT NULL,
   comment TEXT,
   PRIMARY KEY (id_card, room_id),
