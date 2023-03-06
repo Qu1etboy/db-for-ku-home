@@ -1,4 +1,4 @@
-INSERT INTO USER
+INSERT INTO User
 VALUES
       ('6410406878000','0948576867','ศรันย์ภวัต','โพธิ์สร้อย','sarunpawat.p@ku.th','#Icekung52','TRUE'),
       ('1410406860001','0899947785','ศรชัย','สมบูรณ์','sornchaiSB@gmail.com','#SIlover2023',NULL),
