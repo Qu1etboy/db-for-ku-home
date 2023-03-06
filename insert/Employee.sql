@@ -48,7 +48,7 @@ VALUES (
     '5678901234',
     'Kittipong',
     'Sittipong',
-    'kit@gmail.com'
+    'kit@gmail.com',
     '123456',
     62300
 ),
@@ -57,7 +57,7 @@ VALUES (
     '6789012345',
     'James',
     'Cameron',
-    'jame@gmail.com'
+    'jame@gmail.com',
     '123456',
     65300
 ),
@@ -66,7 +66,7 @@ VALUES (
     '7890123456',
     'Art',
     'anon',
-    'art@gmail.com'
+    'art@gmail.com',
     '123456',
     70800
 ),
