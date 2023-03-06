@@ -13,7 +13,7 @@
   - [x] room type
   - [x] booking
   - [x] bill
-  - [ ] review
+  - [x] review
 - insert ข้อมูลตัวอย่าง
   - [x] user
   - [x] employee
