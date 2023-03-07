@@ -1,0 +1,3 @@
+SELECT *
+FROM Booking
+WHERE uid_card = '1010406232401'

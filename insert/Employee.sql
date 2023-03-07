@@ -1,10 +1,11 @@
 INSERT INTO Employee(
+    uid_card,
     role_id,
-    EMP_phone_number,
-    EMP_first_name,
-    EMP_last_name,
-    EMP_email,
-    EMP_password,
+    emp_phone_number,
+    emp_first_name,
+    emp_last_name,
+    emp_email,
+    emp_password,
     income
 )
 VALUES
