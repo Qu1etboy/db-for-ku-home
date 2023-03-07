@@ -1,3 +1,3 @@
 SELECT *
 FROM Booking
-WHERE id_card = '1010406232401'
+WHERE uid_card = '1010406232401'

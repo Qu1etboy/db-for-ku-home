@@ -5,7 +5,7 @@ FROM (
         SELECT Booking.booking_id, Room.room_id, Room.room_type_id, USER.is_ku_member
         FROM booking
         JOIN room ON Booking.room_id = Room.room_id
-        JOIN USER ON Booking.id_card = USER.id_card
+        JOIN USER ON Booking.uid_card = USER.uid_card
         WHERE is_ku_member = 'yes'
     ) AS temp
     JOIN RoomType ON RoomType.room_type_id = temp.room_type_id

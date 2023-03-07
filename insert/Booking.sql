@@ -1,7 +1,7 @@
 INSERT INTO Booking (
     booking_id,
     room_id,
-    id_card,
+    uid_card,
     booking_date,
     check_in_date,
     check_out_date,

@@ -1,6 +1,6 @@
 INSERT INTO Bill (
     invoice_id,
-    id_card,
+    uid_card,
     booking_id,
     payment_date,
     if_late_payment,

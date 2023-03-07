@@ -1,111 +1,22 @@
 INSERT INTO Employee(
-    id_card,
+    uid_card,
     role_id,
-    phone_number,
-    first_name,
-    last_name,
-    email,
-    `password`,
+    emp_phone_number,
+    emp_first_name,
+    emp_last_name,
+    emp_email,
+    emp_password,
     income
 )
-VALUES (
-    '8969085668136',
-    1,
-    '1234567890',
-    'John',
-    'Doe',
-    'john@gmail.com',
-    '123456',
-    10000
-),
-(
-    '3119909716962',
-    2,
-    '2345678901',
-    'Alice',
-    'Zhang',
-    'alice@gmail.com',
-    '123456',
-    9000
-), 
-(
-    '9194712101356',
-    3,
-    '3456789012',
-    'Bob',
-    'Smith',
-    'bob@gmail.com',
-    '123456',
-    15000
-),
-(   
-    '1403266929143',
-    4,
-    '4567890123',
-    'Ong',
-    'Sittipong',
-    'ong22280@gmail.com',
-    '123456',
-    23500
-),
-(
-    '8530263776777',
-    5,
-    '5678901234',
-    'Kittipong',
-    'Sittipong',
-    'kit@gmail.com',
-    '123456',
-    62300
-),
-(
-    '1674193417808',
-    6,
-    '6789012345',
-    'James',
-    'Cameron',
-    'jame@gmail.com',
-    '123456',
-    65300
-),
-(
-    '1336721032091',
-    7,
-    '7890123456',
-    'Art',
-    'anon',
-    'art@gmail.com',
-    '123456',
-    70800
-),
-(
-    '2558903183923',
-    8,
-    '8901234567',
-    'Vee',
-    'Huang',
-    'vee@gmail.com',
-    '123456',
-    50999
-),
-(
-    '3112548069852',
-    9,
-    '9012345678',
-    'ton',
-    'anon',
-    'ton@gmail.com',
-    '123456',
-    30000
-),
-(
-    '1384915256032',
-    10,
-    '0123456789',
-    'Pong',
-    'Rattanaporn',
-    'pong@gmail.com',
-    '123456',
-    45000
-)
+VALUES
+    (1,'1234567890','John','Doe','john@gmail.com','123456',10000),
+    (2,'2345678901','Alice','Zhang','alice@gmail.com','123456',9000), 
+    (3,'3456789012','Bob','Smith','bob@gmail.com','123456',15000),
+    (4,'4567890123','Ong','Sittipong','ong22280@gmail.com','123456',23500),
+    (5,'5678901234','Kittipong','Sittipong','kit@gmail.com','123456',62300),
+    (6,'6789012345','James','Cameron','jame@gmail.com','123456',65300),
+    (7,'7890123456','Art','anon','art@gmail.com','123456',70800),
+    (8,'8901234567','Vee','Huang','vee@gmail.com','123456',50999),
+    (9,'9012345678','ton','anon','ton@gmail.com','123456',30000),
+    (10,'0123456789','Pong','Rattanaporn','pong@gmail.com','123456',45000)
 ;
