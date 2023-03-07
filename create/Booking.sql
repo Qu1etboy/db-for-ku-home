@@ -1,7 +1,7 @@
 CREATE TABLE Booking (
     booking_id INT(4) AUTO_INCREMENT,
     room_id INT(4) NOT NULL,
-    user_id CHAR(13) NOT NULL,
+    UID_card CHAR(13) NOT NULL,
     booking_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
     check_in_date TIMESTAMP NOT NULL,
     check_out_date TIMESTAMP NOT NULL,
@@ -14,5 +14,5 @@ CREATE TABLE Booking (
     
     PRIMARY KEY(booking_id),
     FOREIGN KEY(room_id) REFERENCES Room(room_id) ON DELETE CASCADE,
-    FOREIGN KEY(user_id) REFERENCES User(user_id) ON DELETE CASCADE
+    FOREIGN KEY(UID_card) REFERENCES User(UID_card) ON DELETE CASCADE
 );

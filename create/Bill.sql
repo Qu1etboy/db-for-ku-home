@@ -1,6 +1,6 @@
 CREATE TABLE Bill (
   invoice_id INT(4) AUTO_INCREMENT,
-  user_id char(13) NOT NULL,
+  UID_card char(13) NOT NULL,
   booking_id INT(4) UNIQUE NOT NULL,
   payment_date TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP,
   if_late_payment BOOLEAN NOT NULL DEFAULT 0,
@@ -9,5 +9,5 @@ CREATE TABLE Bill (
 
   PRIMARY KEY(invoice_id),
   FOREIGN KEY(booking_id) REFERENCES Booking(booking_id) ON DELETE CASCADE,
-  FOREIGN KEY(user_id) REFERENCES Booking(user_id) ON DELETE CASCADE
+  FOREIGN KEY(UID_card) REFERENCES Booking(UID_card) ON DELETE CASCADE
 );

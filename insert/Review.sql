@@ -1,4 +1,4 @@
-INSERT INTO Review (id_card, room_id, rating, comment)
+INSERT INTO Review (UID_card, room_id, rating, comment)
 VALUES
     ('1010406232401', 1, 5, "ห้องพักกว้าง สะอาด ที่ตั้งเหมาะสำหรับคนที่จะเดินทางมาทำธุระที่ม.เกษตรศาสตร์"),
     ('1103406860811', 1, 5, "ห้องพักกว้าง สะดวกสบาย"),
