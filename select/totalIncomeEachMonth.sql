@@ -1,4 +1,4 @@
-#แสดงข้อมูลของรายได้ที่ได้ในเดือนๆ หนึ่งจากการรวมราคาห้องทั้งหมดจากการรวมตาราง bill, ตาราง booking และ ตาราง room เข้าด้วยกัน
+-- แสดงข้อมูลของรายได้ที่ได้ในเดือนๆ หนึ่งจากการรวมราคาห้องทั้งหมดจากการรวมตาราง bill, ตาราง booking และ ตาราง room เข้าด้วยกัน
 SELECT DATE_FORMAT(temp2.payment_date, '%Y-%m') as month, SUM(RoomType.room_price - temp2.discount_amount) AS total
 FROM(
     SELECT temp1.payment_date, Room.room_type_id, temp1.discount_amount

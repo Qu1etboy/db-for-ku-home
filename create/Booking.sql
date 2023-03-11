@@ -1,3 +1,4 @@
+-- การจองห้องพัก
 CREATE TABLE Booking (
     booking_id INT(4) AUTO_INCREMENT,
     room_id INT(4) NOT NULL,

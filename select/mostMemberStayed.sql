@@ -1,3 +1,4 @@
+-- แสดงประเภทของห้องพักที่ผู้ใช้เป็นสมาชิกของทางโรงแรมและเป็นนิสิตนักศึกษาเข้าใช้มากที่สุดจากตาราง booking
 SELECT temp2.room_type ,COUNT(temp2.room_type) as total
 FROM (
 	SELECT temp.booking_id, temp.room_type_id, RoomType.room_type

@@ -1,3 +1,4 @@
+-- บทบาทของพนักงาน
 INSERT INTO Role(role_title)
 VALUES
     ('Admin'),
@@ -9,5 +10,4 @@ VALUES
     ('Manager'),
     ('Vendor'),
     ('Contractor'),
-    ('Accountant')
-;
+    ('Accountant');

@@ -1,9 +1,5 @@
-INSERT INTO Room (
-    room_id,
-    room_type_id,
-    room_number,
-    room_status
-)
+-- ห้องพัก
+INSERT INTO Room (room_id, room_type_id, room_number, room_status)
 VALUES 
     (1, 1, 101, 'Available'),
     (2, 2, 102, 'Unavailable'),
@@ -14,5 +10,4 @@ VALUES
     (7, 1, 301, 'Available'),
     (8, 2, 302, 'Unavailable'),
     (9, 3, 303, 'Available'),
-    (10, 1, 401, 'Unavailable')
-;
+    (10, 1, 401, 'Unavailable');
