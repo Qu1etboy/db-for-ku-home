@@ -1,5 +1,5 @@
 CREATE TABLE Employee (
-    empid_card CHAR(13) AUTO_INCREMENT,
+    empid_card CHAR(13),
     role_id INT(4) NOT NULL,
     emp_phone_number CHAR(10) NOT NULL,
     emp_first_name VARCHAR(255) NOT NULL,
