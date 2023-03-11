@@ -1,3 +1,4 @@
+-- พนักงานของโรงแรม
 CREATE TABLE Employee (
     empid_card CHAR(13),
     role_id INT(4) NOT NULL,

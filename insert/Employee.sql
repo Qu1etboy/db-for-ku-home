@@ -1,13 +1,5 @@
-INSERT INTO Employee(
-    empid_card,
-    role_id,
-    emp_phone_number,
-    emp_first_name,
-    emp_last_name,
-    emp_email,
-    emp_password,
-    income
-)
+-- พนักงานของโรงแรม
+INSERT INTO Employee (empid_card, role_id, emp_phone_number, emp_first_name, emp_last_name, emp_email, emp_password, income)
 VALUES
     ('5410401000100', 1,'1234567890','John','Doe','john@gmail.com','123456',10000),
     ('5410401000101', 2,'2345678901','Alice','Zhang','alice@gmail.com','123456',9000), 
@@ -18,5 +10,4 @@ VALUES
     ('5410401000106', 7,'7890123456','Art','anon','art@gmail.com','123456',70800),
     ('5410401000107', 8,'8901234567','Vee','Huang','vee@gmail.com','123456',50999),
     ('5410401000108', 9,'9012345678','ton','anon','ton@gmail.com','123456',30000),
-    ('5410401000109', 10,'0123456789','Pong','Rattanaporn','pong@gmail.com','123456',45000)
-;
+    ('5410401000109', 10,'0123456789','Pong','Rattanaporn','pong@gmail.com','123456',45000);

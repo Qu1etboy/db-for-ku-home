@@ -1,3 +1,4 @@
+-- ประเภทของห้องพัก
 CREATE TABLE RoomType (
     room_type_id INT(4) AUTO_INCREMENT,
     room_type VARCHAR(31) NOT NULL,
@@ -9,4 +10,4 @@ CREATE TABLE RoomType (
     CHECK (room_price >= 0),
 
     PRIMARY KEY(room_type_id)
-)
+);
